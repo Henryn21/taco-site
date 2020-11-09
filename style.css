@@ -41,3 +41,26 @@ header{
     float:left;
     margin-left:40px;
 }
+
+/*Center title and hours*/
+#title{
+    color:#cc66a3;
+    font-size: 60px;
+}
+#content{
+    padding:50px;
+    text-align: center;
+}
+#Button{
+    background-color: #cc66a3;
+    color:white;
+    padding:20px 55px;
+    border:none;
+    border-radius: 2px;
+}
+#hero{
+    display:block;
+    width: 80%;
+    margin:auto;
+    padding: 30px 0px
+}
