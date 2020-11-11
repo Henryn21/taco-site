@@ -60,7 +60,37 @@ header{
 }
 #hero{
     display:block;
+    max-width: 1100px;
     width: 80%;
     margin:auto;
     padding: 30px 0px
+}
+/*testimonials*/
+.line{
+    display: block;
+    margin: auto;
+    width:50px;
+    background-color: black;
+    height: 2px;
+}
+.smallTitle{
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+#seperator1{
+    padding-top: 80px;
+}
+#tHolder{
+    margin: auto;
+    width:80%;
+    display: block;
+}
+#testimonials{
+    list-style-type:none ;
+}
+.testimonialBlock{
+    float: left;
+    display: block;
+    margin:30px;
 }
