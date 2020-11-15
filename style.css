@@ -50,8 +50,9 @@ header{
 #content{
     padding:50px;
     text-align: center;
+    font-family:Verdana, sans-serif ;
 }
-#Button{
+.button{
     background-color: #cc66a3;
     color:white;
     padding:20px 55px;
@@ -78,7 +79,7 @@ header{
     font-size: 16px;
     text-align: center;
 }
-#seperator1{
+.seperator{
     padding-top: 80px;
 }
 
@@ -106,7 +107,6 @@ header{
     display: block;
     margin:auto;
     width:80%;
-
     text-align: center;
 }
 .pinkLink{
@@ -118,4 +118,66 @@ header{
     display:inline-block;
     padding-bottom: 8px;
     margin: 0px 16px;
+}
+
+/*Gallery*/
+#gallery{
+    padding-top:50px;
+    max-width: 1100px;
+    width:80%;
+    display:block;
+    margin:auto;
+}
+.galleryImage{
+    width: 33%;
+    margin: auto;
+    display: inline-block;
+}
+
+/*Contact/Directions*/
+#gmapsImg{
+    padding: 20px 0px;
+    width: 80%;
+    max-width: 1100px;
+    margin:auto;
+    display: block;
+    clip-path:polygon(50%)
+}
+#infoBlocks{
+    width: 80%;
+    max-width: 1100px;
+    margin: auto;
+}
+.infoBlock{
+    height: 100%;
+    display:inline-block;
+    width:40%;
+    font-family: Verdana, sans-serif ;
+    display:table-cell;
+    font-size: 14px;
+}
+.footerTitle{
+    font-family:Verdana, sans-serif ;
+    font-weight: bold;
+    font-size: 16px;
+}
+/*Footer*/
+#bottomLine{
+    background-color:rgb(141, 141, 141);
+    width: 80%;
+    height:1px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+#footer{
+    color:rgb(141, 141, 141);
+    width: 80%;
+    margin: auto;
+}
+.footerElement{
+    display: inline-block;
+    margin: auto;
+    width: 32%;
+    padding:10px 0px 20px 0px;
+    font-size:12px;
 }

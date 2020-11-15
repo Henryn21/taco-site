@@ -28,31 +28,31 @@
         <p>
             Open today until 11:00 PM
         </p>
-        <button id="Button">GET QUOTE</button>
+        <button class="button">GET QUOTE</button>
     </div>
     <!--Big image of tacos -->
     <img src="images/tacos.jpg" id="hero">
     <!--testimonials-->
-    <div id="seperator1">
+    <div class="seperator">
         <div class="line"></div>
         <h1 class="smallTitle">TESTIMONIALS</h1>
     </div>
     <!--Use JSON and google to generate these, alternatively just copy paste into p tags -->
 <!--Placeholder hardcoded, will replace with JSON data from places API-->
     <div id="testimonials">
-        <p class="testimonialBlock">stars, date<br>
+        <p class="testimonialBlock">* * * * *  3 months ago<br><br>
             The adobada tacos are awsome. They have great flavor and the meat is tender. I like how they serve each taco with double tortilla and give you some caramelized onions om top. If your up to it eat that grilled jalapeno they give you. It's delicious but hot. Don't say I didn't warn you. And last of all take your patient's because it does get full, but it's well worth it.
-            <br>
+            <br><br>
             <span class="pinkName">- John M</span>
         </p>
-        <p class="testimonialBlock">stars, date<br>
+        <p class="testimonialBlock">* * * * *  3 months ago<br><br>
             Very tasty and reasonably priced. The line is always crazy, and for good reason! Food is worth the wait. The best Mexican food I have found in the Seattle area.
-            <br>
+            <br><br>
             <span class="pinkName">- Priya B</span>
         </p>
-        <p class="testimonialBlock">stars, date<br>
+        <p class="testimonialBlock">* * * * *  a month ago<br><br>
             Love their food. It's so tasty!! They got great prices and are also fast! You Need to try it!
-            <br>
+            <br><br>
             <span class="pinkName">- Vanessa R</span>
         </p>
     </div>
@@ -63,48 +63,73 @@
         <p class="pinkLink">WRITE A REVIEW</p>
         <p class="pinkLink">READ MORE</p>
     </div>
-    
+
     <!--gallery-->
-    <div id="gallery">
-        <img>
-        <img>
-        <img>
-        <img>
-        <img>
-        <img>
-        <img>
-        <img>
-        <img>
-    </div>
-    
-    <h1>CONTACT US</h1>
-        <!--Gmaps pic-->
-    <a href="https://www.google.com/search?tbm=lcl&q=taqueria%20la%20fondita&spell=1&sa=X&ved=0ahUKEwidkai60u3sAhULvp4KHYLQAFUQBQgMKAA&biw=958&bih=959&dpr=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u1!2m2!1m1!1e1!1m4!1u1!2m2!1m1!1e2!1m4!1u22!2m2!21m1!1e1!2m1!1e2!2m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:9&rlst=f#rlfi=hd:;si:2713135136837983732,l,ChN0YXF1ZXJpYSBsYSBmb25kaXRhSKqGuuKeqoCACFo2ChN0YXF1ZXJpYSBsYSBmb25kaXRhEAAQARACGAAYARgCIhN0YXF1ZXJpYSBsYSBmb25kaXRh,y,h9BJn_xvUlk;mv:[[47.57627563640184,-122.26350627759314],[47.387407004525684,-122.4482139191947],null,[47.481926195330495,-122.35586009839392],12]"><img src="https://maps.googleapis.com/maps/api/staticmap?scale=1&size=1600x900&style=feature:poi.business|visibility:off&style=feature:water|visibility:simplified&style=feature:road|element:labels.icon|visibility:off&style=feature:road.highway|element:labels|saturation:-90|lightness:25&format=jpg&language=en&region=US&markers=color:0xd07ea7|47.5153062,-122.3544446&zoom=16&client=google-presto&signature=wDecRaCXINNMBv_KOHMy-Y-xykY"></a>
-    <!--Contact button-->
-    <div class="infoBlock">
-        <h1>CONTACT</h1>
-        <button class="Button">CALL NOW</button>
-        <p>(206) 551-0529</p>
+    <div class="seperator">
+        <div class="line"></div>
+        <h1 class="smallTitle">GALLERY</h1>
     </div>
 
+    <div id="gallery">
+        <img src="images/tp1.JPG" class="galleryImage">
+        <img src="images/tp2.JPG" class="galleryImage">
+        <img src="images/tp3.JPG" class="galleryImage">
+        <img src="images/tp4.JPG" class="galleryImage">
+        <img src="images/tp5.JPG" class="galleryImage">
+        <img src="images/tp6.JPG" class="galleryImage">
+        <img src="images/tp7.JPG" class="galleryImage">
+        <img src="images/tp8.JPG" class="galleryImage">
+        <img src="images/tp9.JPG" class="galleryImage">
+    </div>
+    
+    <!--Contact/Directions-->
+    <div class="seperator">
+        <div class="line"></div>
+        <h1 class="smallTitle">CONTACT US</h1>
+    </div>
+        <!--Gmaps pic-->
+    <div id="mapBox"><!--BUG! link is bigger than img-->
+        <a href="https://www.google.com/search?tbm=lcl&q=taqueria%20la%20fondita&spell=1&sa=X&ved=0ahUKEwidkai60u3sAhULvp4KHYLQAFUQBQgMKAA&biw=958&bih=959&dpr=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u1!2m2!1m1!1e1!1m4!1u1!2m2!1m1!1e2!1m4!1u22!2m2!21m1!1e1!2m1!1e2!2m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:9&rlst=f#rlfi=hd:;si:2713135136837983732,l,ChN0YXF1ZXJpYSBsYSBmb25kaXRhSKqGuuKeqoCACFo2ChN0YXF1ZXJpYSBsYSBmb25kaXRhEAAQARACGAAYARgCIhN0YXF1ZXJpYSBsYSBmb25kaXRh,y,h9BJn_xvUlk;mv:[[47.57627563640184,-122.26350627759314],[47.387407004525684,-122.4482139191947],null,[47.481926195330495,-122.35586009839392],12]">
+            <img id="gmapsImg" src="https://maps.googleapis.com/maps/api/staticmap?scale=1&size=1600x900&style=feature:poi.business|visibility:off&style=feature:water|visibility:simplified&style=feature:road|element:labels.icon|visibility:off&style=feature:road.highway|element:labels|saturation:-90|lightness:25&format=jpg&language=en&region=US&markers=color:0xd07ea7|47.5153062,-122.3544446&zoom=16&client=google-presto&signature=wDecRaCXINNMBv_KOHMy-Y-xykY">
+        </a>
+    </div>
+ 
+
     <!--Gmaps link and addy-->
-    <div class="infoBlock">
-        <h1>Address</h1>
-        <button class="Button">GET DIRECTIONS</button>
-        <p>9811 15th Avenue Southwest<br>
-            Seattle, WA 98106<br>
-            United States</p>
+    
+    <div id="infoBlocks">
+        <!--Contact button-->
+        <div class="infoBlock">
+            <h1 class="footerTitle">CONTACT</h1>
+            <button class="button">CALL NOW</button>
+            <p>(206) 551-0529</p>
+        </div>
+        <!--Adress-->
+        <div class="infoBlock">
+            <h1 class="footerTitle">Address</h1>
+            <button class="button">GET DIRECTIONS</button>
+            <p>9811 15th Avenue Southwest<br>
+                Seattle, WA 98106<br>
+                United States</p>
+        </div>
+        <!--Hours-->
+        <div class="infoBlock">
+            <h1 class="footerTitle">Business Hours</h1>
+            <p>Mon: 10:00 AM - 11:00 PM</p>
+            <p>Tue: 10:00 AM - 11:00 PM</p>
+            <p>Wed: 10:00 AM - 11:00 PM</p>
+            <p>Thu: 10:00 AM - 11:00 PM</p>
+            <p>Fri: 10:00 AM - 11:00 PM</p>
+            <p>Sat: 10:00 AM - 11:00 PM</p>
+            <p>Sun: 10:00 AM - 11:00 PM</p>
+        </div>
     </div>
-    <!--Hours-->
-    <div class="infoBlock">
-        <h1>Business Hours</h1>
-        <p>Mon: 10:00 AM - 11:00 PM</p>
-        <p>Tue: 10:00 AM - 11:00 PM</p>
-        <p>Wed: 10:00 AM - 11:00 PM</p>
-        <p>Thu: 10:00 AM - 11:00 PM</p>
-        <p>Fri: 10:00 AM - 11:00 PM</p>
-        <p>Sat: 10:00 AM - 11:00 PM</p>
-        <p>Sun: 10:00 AM - 11:00 PM</p>
-    </div>
+    <!--Footer-->
+    <div id="bottomLine"></div>
+    <footer id="footer">
+        <p class="footerElement">Report abuse</p>
+        <p class="footerElement">Header photo by Jon Conley</p>
+        <p class="footerElement">Powered by Google</p>
+    </footer>
 </body>
 </html>
