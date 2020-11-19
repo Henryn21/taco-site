@@ -20,7 +20,7 @@ header{
     list-style-type: none;
     float:right;
     margin-right:40px;
-
+    padding-top: 10px;
 }
 .nBR{ 
     float:right;
@@ -31,21 +31,49 @@ header{
     float:left;
     margin:10px;
     font-weight: bold;
-}
-#dropDown{
-    font-size:50px;
-    margin-top:-10px;
+    font-family: "Times New Roman", Times, serif;
 }
 #leftBox{
     margin-top:10px;
     float:left;
     margin-left:40px;
+    font-size: 24px;
 }
-
+.icon{
+    margin-bottom:-2px;
+    height: 16px;
+    width:16px;
+}
+#dropDownButton{
+    font-size:50px;
+    margin-top:-10px;
+    user-select: none;
+}
+/*Dropdown menu on nav bar*/
+#dropDownMenuBox{
+    display: none;
+    width: 390px;
+    /* border-style: dashed; */
+    color:#cc66a3;
+    background-color: white;
+    height:100%;
+    position:fixed;
+    box-shadow: .1px 0px 4px lightgray;
+}
+#dropDownMenuList{
+    list-style: none;
+    margin: auto;
+}
+.ddMenuItem{
+    padding:25px;
+    margin-left:30px;
+    font-size: 20px;
+}
 /*Center title and hours*/
 #title{
     color:#cc66a3;
     font-size: 60px;
+    font-family: "Times New Roman", Times, serif;
 }
 #content{
     padding:50px;
