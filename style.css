@@ -4,7 +4,7 @@ body{
 }
 a{
     color: inherit;
-    border-style: solid;
+    text-decoration: inherit;
 }
 /*Header/Navbar*/
 header{
