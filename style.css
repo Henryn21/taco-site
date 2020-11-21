@@ -2,6 +2,10 @@ body{
     padding:0;
     margin:0;
 }
+a{
+    color: inherit;
+    border-style: solid;
+}
 /*Header/Navbar*/
 header{
     margin: 0%;
@@ -48,6 +52,7 @@ header{
     font-size:50px;
     margin-top:-10px;
     user-select: none;
+    width: 24px;
 }
 /*Dropdown menu on nav bar*/
 #dropDownMenuBox{
