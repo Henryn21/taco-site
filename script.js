@@ -51,6 +51,7 @@ let reviewList;
 //new request object
 let request= new XMLHttpRequest();
 
+//CORS BUG, doesnt work without CORS Extension to turn it off
 
 //open call on API address
 request.open("GET", "https://maps.googleapis.com/maps/api/place/details/json?fields=review&key=AIzaSyBYZMSmO_lrxaddKipkStuvMAvuaDJoU4E&place_id=ChIJpXnxQt5DkFQR9N3bOgj-piU");
@@ -58,13 +59,10 @@ request.send();
 //when JSON returned
 request.onload=()=>{
     //test what is returned
-    console.log(request);
     if(request.status==200){
         console.log("Response done");
         reviewJson=JSON.parse(request.response);
-        console.log(reviewJson);
         reviewList=reviewJson.result.reviews;
-        console.log(reviewList[0]);
 
         //fill review html elements on dom with API data
 
@@ -88,4 +86,3 @@ request.onload=()=>{
     }
 }
 
-// console.log(reviewJson.result);
