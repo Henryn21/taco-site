@@ -142,6 +142,30 @@ header{
     width:80%;
     text-align: center;
 }
+#revDate1{
+    float: right;
+}
+#revDate2{
+    float: right;
+}
+#revDate2{
+    float: right;
+}
+#stars1{
+    color:gold;
+    font-size: 26px;
+    letter-spacing: -4px;
+}
+#stars2{
+    color:gold;
+    font-size: 26px;
+    letter-spacing: -4px;
+}
+#stars3{
+    color:gold;
+    font-size: 26px;
+    letter-spacing: -4px;
+}
 .pinkLink{
     font-size: 14px;
     font-family:Verdana, sans-serif ;
