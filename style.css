@@ -49,8 +49,10 @@ header{
     width:16px;
 }
 #dropDownButton{
-    font-size:50px;
-    margin-top:-10px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size:40px;
+    margin-top:0px;
     user-select: none;
     width: 24px;
 }
