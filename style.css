@@ -56,14 +56,14 @@ header{
 }
 /*Dropdown menu on nav bar*/
 #dropDownMenuBox{
-    display: none;
+    display: block;
     width: 390px;
-    /* border-style: dashed; */
     color:#cc66a3;
     background-color: white;
     height:100%;
     position:fixed;
     box-shadow: .1px 0px 4px lightgray;
+    margin-left: -390px;
 }
 #dropDownMenuList{
     list-style: none;
@@ -74,6 +74,34 @@ header{
     margin-left:30px;
     font-size: 20px;
 }
+/*Animation*/
+.slideIn{
+    animation-name:slideIn;
+    animation-duration: .1s;
+    animation-fill-mode:forwards;
+}
+@keyframes slideIn {
+    from{
+        margin-left: -390px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+.slideOut{
+    animation-name:slideOut;
+    animation-duration: .1s;
+    animation-fill-mode:forwards;
+}
+@keyframes slideOut {
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: -390px;
+    }
+}
+
 /*Center title and hours*/
 #title{
     color:#cc66a3;

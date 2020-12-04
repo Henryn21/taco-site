@@ -6,11 +6,12 @@ let ddMenu = document.querySelector("#dropDownMenuBox");
 function ddDisplaySwitcher(){
     if(ddButton.innerHTML=="="){
         ddButton.innerHTML="x";
-        ddMenu.style.display="block";
+        ddMenu.className="slideIn";
+        console.log(ddMenu.className);
     }
     else{
         ddButton.innerHTML="=";
-        ddMenu.style.display="none";
+        ddMenu.className="slideOut";
     }
 }
 ddButton.addEventListener("click", ddDisplaySwitcher);
