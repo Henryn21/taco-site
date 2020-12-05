@@ -79,7 +79,7 @@ header{
 /*Animation*/
 .slideIn{
     animation-name:slideIn;
-    animation-duration: .1s;
+    animation-duration: .2s;
     animation-fill-mode:forwards;
 }
 @keyframes slideIn {
@@ -92,7 +92,7 @@ header{
 }
 .slideOut{
     animation-name:slideOut;
-    animation-duration: .1s;
+    animation-duration: .2s;
     animation-fill-mode:forwards;
 }
 @keyframes slideOut {
@@ -178,7 +178,7 @@ header{
 #revDate2{
     float: right;
 }
-#revDate2{
+#revDate3{
     float: right;
 }
 #stars1{
